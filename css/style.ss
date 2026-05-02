@@ -130,6 +130,7 @@ footer {
     nav ul {
         flex-direction: column;
         align-items: center;
+    
     }
     main {
         padding: 1rem;
