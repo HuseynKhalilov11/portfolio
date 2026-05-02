@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game | Huseyn Khalilov</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="game.html">Game</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="game">
+            <h2>🎮 Rock Paper Scissors</h2>
+            <p>Choose a move and play against the computer.</p>
+            
+            <div class="game-buttons">
+                <button data-choice="Rock">✊ Rock</button>
+                <button data-choice="Paper">📄 Paper</button>
+                <button data-choice="Scissors">✂️ Scissors</button>
+            </div>
+            
+            <div class="game-result">
+                <p><strong>Your choice:</strong> <span id="player-choice">-</span></p>
+                <p><strong>Computer choice:</strong> <span id="computer-choice">-</span></p>
+                <p id="round-result">Pick a move to start.</p>
+            </div>
+            
+            <div class="scoreboard">
+                <div><strong>👤 Player:</strong> <span id="player-score">0</span></div>
+                <div><strong>💻 Computer:</strong> <span id="computer-score">0</span></div>
+            </div>
+            
+            <button id="reset-button" class="reset-button">🔄 Reset Score</button>
+        </section>
+    </main>
+
+    <footer>
+        <a href="https://github.com/HuseynKhalilov11" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="icon">
+        </a>
+        <a href="https://www.codecademy.com/profiles/data2894904672" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/919/919851.png" alt="Codecademy" class="icon">
+        </a>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
