@@ -7,5 +7,5 @@ This is my personal portfolio website for SITE 1101 course. It includes Home, Ab
 ## Pages
 - Home - Introduction and profile photo
 - About - My background, qualifications, and activities
-- Projects - Three projects (E-commerce, Hour of Code, Robotics)
+- Projects - Three projects (Logic gates, Hour of Code, Robotics)
 - Game - Interactive Rock Paper Scissors game
